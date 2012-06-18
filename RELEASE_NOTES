@@ -1,0 +1,23 @@
+#==============================================================
+#
+#  Name: RELEASE_NOTES
+#
+#  Rem: This files describes release notes for
+#       the longSubRecord subroutine record support.
+#
+#  Maint:  Marty Kraimer (EPICS community)
+#         
+#  Auth: 10-Nov-2010, K. Luchini         (USERNAME)
+#  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
+#==============================================================
+# (Most recent to oldest):
+#
+Mod:  	
+longSubRecord-R1-0-0 	   
+18-Jun-2012   K- Luchini  (LUCHINI)
+              Orignal release. Extracted from event module.
+              Built against EPICS R3.14.8.2 (base-R3-14-8-2-lcls6)
+              and RTEMS 4.9.3 as well as EPICS R.14.12 and RTEMS 4.9.4
+
+# End of file
+
