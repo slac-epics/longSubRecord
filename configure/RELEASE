@@ -1,33 +1,18 @@
 #RELEASE Location of external products
 # Run "gnumake clean uninstall install" in the application
 # top directory each time this file is changed.
-
-# Pickup the path to your EPICS top level directory
-# This is where EPICS lives at your site
 include $(TOP)/RELEASE_SITE
-
 TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 
-# =============================================================
-# Define location of module tree
-# =============================================================
-EPICS_MODULES=$(MODULES_SITE_TOP)
+# If you don't want to install into $(TOP) then
+# define INSTALL_LOCATION_APP here
+#INSTALL_LOCATION_APP=<fullpathname>
 
-# ==============================================================
-# Define the version of EPICS BASE that you will use
-# =============================================================
+
+# ===========================================================
+# Define the cvs module version that you will use
+# ==========================================================
 BASE_MODULE_VERSION=$(EPICS_BASE_VER)
-
-# =============================================================
-# Define the version of modules needed by
-# IOC apps or other Support apps
-# =============================================================
-#MISCUTILS_MODULE_VERSION=miscUtils-R2-2-1
-
-# =============================================================
-# External Support
-# =============================================================
-#MISCUTILS=$(EPICS_MODULES)/miscUtils/$(MISCUTILS_MODULE_VERSION)
 
 # =================================================================
 # Define EPICS_BASE
@@ -36,5 +21,4 @@ BASE_MODULE_VERSION=$(EPICS_BASE_VER)
 EPICS_BASE=$(BASE_SITE_TOP)/$(BASE_MODULE_VERSION)
 
 # End of file
-
 
