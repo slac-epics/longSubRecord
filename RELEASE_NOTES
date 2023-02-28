@@ -12,7 +12,15 @@
 #==============================================================
 # (Most recent to oldest):
 #
-Mod:  	
+R1.2.0        28-Feb-2023,  K. Luchini   (luchini):
+              upgrade to epics V7 (64-bit), copy version from
+              event R4.8.4/evrSuppport/src, which had been previously
+              upgrade from 32-bit to 64-bit
+              Rename RELEASE to RELEASE.local and modify to TID standards
+              Modify RELEASE to include RELASE.local
+              Update some configure files to confirm to epics V7 change
+              done in modules.
+  	
 longSubRecord-R1-0-0 	   
 18-Jun-2012   K- Luchini  (LUCHINI)
               Orignal release. Extracted from event module.
