@@ -28,6 +28,7 @@ include $(TOP)/configure/CONFIG
 #
 # USR_CFLAGS += 
 DBDINC     += longSubRecord
+DBD        += longSubRecord.dbd
 
 # Link everything into a library:
 LIBRARY_IOC = longSubRecord
