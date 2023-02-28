@@ -12,7 +12,10 @@
 #==============================================================
 # (Most recent to oldest):
 #
-R1.2.0        28-Feb-2023,  K. Luchini   (luchini):
+R1-2-0        28-Feb-2023,  K. Luchini   (luchini):
+              NOTE: CVS does not all "." in tag, so when thsi
+              is converted to git, change tage to R1.2.0
+
               upgrade to epics V7 (64-bit), copy version from
               event R4.8.4/evrSuppport/src, which had been previously
               upgrade from 32-bit to 64-bit
