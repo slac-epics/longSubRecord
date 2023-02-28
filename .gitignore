@@ -26,3 +26,8 @@ _$*
 *.ln
 core
 # CVS default ignores end
+bin db dbd lib restore archive RELEASE_SITE
+include
+archive
+autosave
+
