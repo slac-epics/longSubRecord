@@ -31,3 +31,14 @@ include
 archive
 autosave
 
+/bin/
+/lib/
+/db/
+/dbd/
+/html/
+/include/
+/templates/
+O.*
+*.log
+
+RELEASE_SITE
